@@ -12,7 +12,7 @@ class SponsorSchema(BaseModel):
 
 class SponsorCreate(BaseModel):
     full_name: str
-    type: # str
+    # type: # str
     phone_number: str
     status: str
     organization: str
